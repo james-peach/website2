@@ -1,0 +1,99 @@
+h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+}
+h1 {
+	color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 90px; 
+  bottom: 30px; 
+  position: relative; 
+  font-weight: normal; 
+  border-top: solid 7px #ae0000;
+  border-bottom: solid 7px #ae0000;  
+}
+.navbar {
+  color: black; 
+  border: 2px white solid; 
+  left: 900px; 
+  background-color: white; 
+  font-size: 30px; 
+  position: relative; 
+  font-family: 'Oswald', sans-serif;
+  bottom: 180px; 
+  margin: 15px; 
+  border-radius: 12px;
+  padding: 10px; 
+}
+body {
+  background-color: #1c1c1c; 
+  font-family: 'Oswald', sans-serif; 
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+p {
+  color: #969ba3; 
+  padding: 2px; 
+  font-family: 'Oswald', sans-serif; 
+  position: relative; 
+  bottom: 125px;
+  font-size: 20px; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+.navbar:active {
+  position: relative; 
+  bottom: 170px;  
+  background-color: #ae0000; 
+  border-color: #ae0000; 
+}
+
+.navbar:hover {
+  background-color: #ae0000;
+  border-color: #ae0000; 
+}
+
+@media screen and (max-width: 1450px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+    bottom: 180px; 
+  }
+  body {
+    overflow-x: hidden;  
+    }
+}
+@media screen and (max-width: 800px) {
+  .navbar {
+    font-size: 50px; 
+    margin: auto; 
+    display: block; 
+    width: 400px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    left: 130%; 
+  }
+  h1 {
+   left: 100%;  
+   font-size: 200px; 
+   text-align: center;
+   width: 400px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

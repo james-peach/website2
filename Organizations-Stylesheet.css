@@ -1,0 +1,62 @@
+h1 {
+  margin-right: 1430px; 
+}
+.organizations-desc {
+  position: relative; 
+  left: 50px; 
+  font-size: 200%; 
+  bottom: 150px; 
+  color: #969ba3;
+}
+
+.list-of-orgs {
+ 	font-family: 'Oswald', sans-serif; 
+  color: white;
+  font-size: 40px; 
+  position: relative; 
+  bottom: 150px; 
+  left: 80px; 
+}
+
+.detect-orgs-info-mouse-leave {
+  opacity: 0.0;  
+}
+
+.orgs-desc {
+  margin-right: 100px;  
+}
+@media screen and (max-width: 1450px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+    bottom: 180px; 
+  }
+  body {
+    overflow-x: hidden;  
+    }
+  .orgs-desc {
+    margin-right: 7%;  
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar {
+    font-size: 50px; 
+    margin: auto; 
+    display: block; 
+    width: 400px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    left: 130%; 
+  }
+  h1 {
+   left: 100%;  
+   font-size: 200px; 
+   text-align: center;
+   width: 400px;
+  }
+}
+

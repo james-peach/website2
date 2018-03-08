@@ -1,0 +1,237 @@
+#slideshow {
+  position: relative; 
+  overflow: hidden;
+  height: 300px;
+  width: 650px;
+  margin: 0 auto;
+  bottom: 500px;
+  left: 750px;  
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background-image: url('HomeImages/IMG_0567.JPG');
+  background-size: 650px 300px; 
+  background-repeat: no-repeat; 
+}
+
+.slide:nth-child(2) {
+  background-image: url('HomeImages/IMG_0568.JPG');
+  background-size: 650px 300px;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-child(3) {
+  background-image: url('HomeImages/IMG_0570.JPG');
+  background-size: 650px 300px;
+  background-repeat: no-repeat;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+body {
+  position: relative; 
+  top: 53px; 
+  margin-right: 600px;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  max-height: 1%; 
+}
+.motto {
+  position: relative; 
+  bottom: 150px; 
+  left: 15px; 
+  color: #696a6d; 
+}
+
+.desc { 
+ position: relative;  
+ color: white;
+ right: 650px; 
+ bottom: 150px;
+ margin-right: 600px; 
+ left: 25px;
+ font-family: 'News Cycle', sans-serif; 
+ font-size: 30px;
+} 
+  color: #424242; 
+  position: relative; 
+  bottom: 150px; 
+  left: 100px; 
+  font-size: 35px;
+}
+
+.vertical-line {
+  border-left: 1px solid #fafafa;
+  height: 300px; 
+  left: 290px; 
+  bottom: 160px; 
+}
+
+.more-events {
+  text-decoration: none;
+  position: relative;
+  left: 100px;
+  bottom: 150px; 
+}
+
+.desc-2 {
+  position: relative; 
+  bottom: 500px;
+  left: 1070px; 
+  margin-right: 700px; 
+  font-size: 30px; 
+}
+
+.slideshow {
+  position: relative; 
+  bottom: 150px;  
+}
+
+.upcoming-events-chart {
+  position: relative; 
+  top: 30px; 
+}
+
+.slideshow-and-desc-2 {
+  position: relative; 
+  top: 75px;
+}
+
+h1 {
+  margin-right: 63%;  
+}
+.home-image-under-desc-and-caption {
+  position: relative; 
+  top: 50px;  
+}
+.home-image-under-desc {
+  position: relative; 
+  bottom: 750px; 
+  left: 50px; 
+}
+.home-image-under-desc-caption {
+  position: relative; 
+  bottom: 750px;  
+  left: 50px; 
+}
+.home-image-under-desc-2-and-caption {
+  position: relative; 
+  bottom: 600px; 
+  left: 525px; 
+}
+.home-image-under-desc-2 {
+  position: relative; 
+  bottom: 400px; 
+  left: 550px; 
+  width: 600px; 
+  height: 600px; 
+}
+.home-image-under-desc-2-caption {
+  position: relative; 
+  bottom: 400px; 
+  left: 550px; 
+  margin-right: 685px; 
+}
+@media screen and (max-width: 1450px) {
+  .navbar {
+    margin: 15px; 
+  }
+  .motto {
+    bottom: 125px;  
+  }
+  body {
+    position: relative; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    margin-right: 100px;
+  }
+  .desc {
+    margin-right: 800px;  
+    bottom: 125px;        
+  }
+  .desc-2 {
+    left: 1050px; 
+    bottom: 625px; 
+  }
+  .slideshow-and-desc-2 {
+    right: 400px; 
+  }
+  h1 {
+    margin-right: 750px;  
+  }
+  
+  .home-image-under-desc-and-caption {
+    top: 100px;  
+  }
+  
+  .home-image-under-desc-2 {
+    left: 125px;
+    bottom: 550px; 
+  }
+  
+  .home-image-under-desc-2-caption {
+    left: 125px;  
+    margin-right: 750px;
+    bottom: 550px; 
+  }
+  #slideshow {
+    bottom: 600px;  
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  body {
+   overflow: scroll;  
+  }
+  .navbar {
+    font-size: 50px; 
+    margin: auto; 
+    display: block; 
+    width: 400px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    left: 130%; 
+  }
+  h1 {
+   left: 100%;  
+   font-size: 200px; 
+   text-align: center;
+   width: 400px;
+  }
+  .motto {
+    text-align: center; 
+    font-size: 50px; 
+    margin-right: 1800px;
+    margin-left: 50px; 
+    margin-top: none; 
+    margin-bottom: none; 
+  }
+}
+

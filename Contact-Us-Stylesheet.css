@@ -1,0 +1,73 @@
+h1 {
+  margin-right: 1525px;  
+}
+@media screen and (max-width: 1450px) {
+  .navbar {
+    position: relative; 
+    left: 500px; 
+    font-size: 25px; 
+    bottom: 180px; 
+  }
+  body {
+    overflow-x: hidden;  
+    }
+}
+@media screen and (max-width: 800px) {
+  .navbar {
+    font-size: 50px; 
+    margin: auto; 
+    display: block; 
+    width: 400px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    text-align: center; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    left: 130%; 
+  }
+  h1 {
+   left: 100%;  
+   font-size: 200px; 
+   text-align: center;
+   width: 400px;
+  }
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    padding: 40px 0 60px;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+  margin: 50px 0;
+}
+form {
+    margin-bottom: 60px;
+}
+/* Form Fields -------------------- */
+input,
+textarea {
+  font-size: 1em;
+  color: black;
+  font-weight: 300; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+label {
+  display: block;
+  margin-bottom: 0.5em; 
+}
